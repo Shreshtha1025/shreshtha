@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Feedback Form</title>
+	<style>
+		body {
+            
+			font-family: sans-serif;
+			text-align: center;
+		}
+		form {
+			display: inline-block;
+			margin: 30px ;
+			padding: 60px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			box-shadow: 0 0 5px rgb(0, 0, 0);
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		input, textarea {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 2px solid #ccc;
+            border-radius: 8px;
+            margin-right: px;
+		}
+		  .feedback_btn {
+			background-color: #fac031;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 10px;
+			cursor: pointer;
+            text-decoration: none;
+		}
+		.feedback_btn:hover {
+			background-color:#fa9c31;
+		}
+        .img{
+            margin-top: 10px;
+        }
+        
+        
+        .text:hover{
+            color:#fac031; 
+            
+        }
+
+		.text h2 span{
+			color: #fac031;
+		}
+		.text h2{
+			color: #fac031;
+		}
+
+		.text h2:hover{
+              color: black;
+		}
+	</style>
+</head>
+<body >
+    <div class="logo">
+        <img src="image/logo.png"   height="80">
+    </div>
+    <div class="text">
+		<h2>Your Feedback. Thank you for visiting.<span >( The Coder Restro)</span></h2>
+        <marquee onmouseover="this.stop()" onmouseleave="this.start()" scrollamount="20  " behavior="alternate">
+             <h3>Your order will be listed. Pikup in 20 min on counter.(When you go to the counter to pick up your food, you will be pay the bill.) </h3>
+        </marquee>
+        
+    </div>
+        	
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br><br>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+		
+		<label for="rating">Rating (1-5):</label> 
+		<input type="number" id="rating" name="rating" min="1" max="5" required><br><br>
+		
+		<label for="feedback">Feedback:</label>
+		<textarea id="feedback" name="feedback" required></textarea><br><br>
+		
+		<a href="thanyou.html" class="feedback_btn">Submit</a>
+	</form>
+	<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+	(function(){
+	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+	s1.async=true;
+	s1.src='https://embed.tawk.to/66ebea984cbc4814f7db1aac/1i84ooq1m';
+	s1.charset='UTF-8';
+	s1.setAttribute('crossorigin','*');
+	s0.parentNode.insertBefore(s1,s0);
+	})();
+	</script>
+	<!--End of Tawk.to Script-->
+</body>
+</html>
