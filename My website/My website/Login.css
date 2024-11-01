@@ -1,0 +1,248 @@
+*{ 
+			margin:0;
+			padding:0;
+			font-family:Arial, Halvetics, sans-swrif;
+			color:black;
+			
+
+		}
+	   
+		.navbar{
+			height:80px;
+			width:100%;
+			
+		}
+		#btn1{
+			width:80px;
+			height:40px;
+			margin-left:220px;
+			background-color:#eb8c34;
+			text-align:center;
+			
+			
+		}
+		#btn2{
+			width:80px;
+			height:40px;
+			background-color:#eb8c34;
+			margin-left:10px;
+			
+		}
+		#x1{
+			color:#fff;
+			font-size:40px;
+			padding:5 100 0 20px;
+			font-weight:800;
+			
+		}
+		#x1 img{
+			width:50px;
+			height:50px;
+			padding:0 10 0 0px;
+			margin-bottom:10px;
+		
+		}
+			section{
+			    width:75%;
+				height:480px;
+				
+				background-position:center;
+				background-size:cover;
+				/* background:url('home2c.jpg')no-repeat; */
+				background-color:#8da3cc;
+				/* background-color:#2e2c2c; */
+				/* display:flex; */
+				margin:auto;
+				/* align-items: center; */
+				/* justify-content:center; */
+			}
+			.yogi{
+			    /* width:500px; */
+				/* height:550px; */
+				background:rgba(0, 0, 0, 0.5);
+				background:transparent;
+				
+				position:relative;
+				backdrop-filter:blur(15px);
+				
+				/* border-radius:20px; */
+				border:2px solid rgba(255, 255, 255, 0.5);
+				box-shadow:0 0 30px rgba(0, 0, 0, 0.5);
+				
+				/* display:flex; */
+				align-items:center;
+				justify-content:center;
+				flex-direction:column;
+			}
+			
+			form {
+				  border: 3px solid #f1f1f1;
+				}
+
+				/* Full-width inputs */
+				input[type=text], input[type=password] {
+				  width: 100%;
+				  padding: 12px 20px;
+				  margin: 8px 0;
+				  display: inline-block;
+				  border: 1px solid #ccc;
+				  box-sizing: border-box;
+				}
+
+				/* Set a style for all buttons */
+				button {
+				  background-color: #04AA6D;
+				  color: white;
+				  padding: 14px 20px;
+				  margin: 8px 0;
+				  border: none;
+				  cursor: pointer;
+				  width: 100%;
+				}
+
+				/* Add a hover effect for buttons */
+				button:hover {
+				  opacity: 0.8;
+				}
+
+				/* Extra style for the cancel button (red) */
+				.cancelbtn {
+				  width: auto;
+				  padding: 10px 18px;
+				  background-color: #f44336;
+				}
+
+				/* Center the avatar image inside this container */
+				/* .imgcontainer { */
+				  /* text-align: center; */
+				  /* margin: 24px 0 12px 0; */
+				/* } */
+
+				/* Avatar image */
+				/* img.avatar { */
+				  /* width: 40%; */
+				  /* border-radius: 50%; */
+				/* } */
+
+				/* Add padding to containers */
+				.yogi {
+				  padding: 16px;
+				}
+
+				/* The "Forgot password" text */
+				span.psw {
+				  float: right;
+				  padding-top: 16px;
+				}
+
+				/* Change styles for span and cancel button on extra small screens */
+				@media screen and (max-width: 300px) {
+				  span.psw {
+					display: block;
+					float: none;
+				  }
+				  .cancelbtn {
+					width: 100%;
+				  }
+				}
+				footer{
+					background:#343434;
+					height:400px;
+					
+				}
+				.container{
+					width:1140px;
+					margin:auto;
+					display:flex;
+					justify-content:center;
+					/* background-color:#3a3a3d; */
+				}
+				.footer-content{
+					width:33.3%;
+					height:300px;
+					padding-top:50px;
+					text-align:center;
+				}
+				.footer-content h3{
+					font-size:28px;
+					margin-bottom:15px;
+					color:silver;
+					
+					
+				}
+				.footer-cantent p{
+					width:190px;
+					margin:auto;
+					padding:7px;
+				}
+				.footer-content ul{
+					text-align:center;
+					
+				}
+				.list{
+					padding:0;
+					
+				}
+				.list li{
+					width:auto;
+					text-align:center;
+					list-style-type:none;
+					padding:7px;
+					position:relative;
+				}
+				.list li::before{
+					content:'';
+					position:absolute;
+					transform:translate;
+					/*left:50%;*/
+					top:100%;
+					width:0;
+					height:2px;
+					background:#f18930;
+					transition-duration:.5s;
+				}
+				.list li:hover::before{
+					width:70px;
+				}
+				.social-icons{
+					text-align:center;
+					padding:0;
+				}
+				.social-icons li{
+					display:inline-block;
+					text-align:center;
+					padding:5px;
+				}
+				.social-icons i{
+					color:white;
+					font-size:25px;
+				}
+				a{
+					text-decoration:none;
+				}
+				a:hover{
+					color:#f18930;
+				}
+				.social-icons i:hover{
+					color:#f18930;
+				}
+				#cpu {
+					padding-left:950px;
+					font-size:3em;
+					
+				}
+				.bottom-bar{
+					background:#f18930;
+					text-align:center;
+					padding:10px 0;
+					margin-top:45px;
+				}
+				.bottom-bar p{
+					color:#343434;
+					margin:0;
+					font-size:20px;
+					padding:7px;
+				}
+				.yogi span{
+					color:black;
+				}
